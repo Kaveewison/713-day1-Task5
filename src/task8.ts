@@ -6,7 +6,7 @@
 //     console.log(x*y + x/y)
 // }
 
-let x =120
+let x = 75
 if (x > 80) {
     console.log('Grade A')
 } else if (x > 60 && x < 80){
