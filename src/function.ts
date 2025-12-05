@@ -47,7 +47,20 @@
 // console.log(`Max of (20, 15): ${ShowMax(20, 15)}`);
 
 
-const add = (a,b) => {
-    return a+b;
-}
-console.log(add(1,2));
+const findMax = (list: number[]): string => {
+    if (list.length === 0) {
+        return "List is empty"; // กรณี List ว่าง
+    }
+
+    const max = Math.max(...list);
+
+
+    return max.toString();
+};
+
+const numbers: number[] = [10, 8, 75, 32];
+const maxAsString: string = findMax(numbers);
+console.log(`Max value as string: ${maxAsString}`);
+console.log(`Type of result: ${typeof maxAsString}`);
+
+
