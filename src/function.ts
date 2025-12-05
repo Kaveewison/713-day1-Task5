@@ -31,17 +31,23 @@
 // console.log(greet('John'))
 
 
-const greet = (name) => 'Hello ' + name
+// const greet = (name) => 'Hello ' + name
+//
+// console.log(greet('John'))
+//
+// const ShowMax = (x: number, y: number): number => {
+//     if (x > y) {
+//         return x;
+//     } else {
+//         return y;
+//     }
+// };
+//
+// console.log(`Max of (5, 10): ${ShowMax(5, 10)}`);
+// console.log(`Max of (20, 15): ${ShowMax(20, 15)}`);
 
-console.log(greet('John'))
 
-const ShowMax = (x: number, y: number): number => {
-    if (x > y) {
-        return x;
-    } else {
-        return y;
-    }
-};
-
-console.log(`Max of (5, 10): ${ShowMax(5, 10)}`);
-console.log(`Max of (20, 15): ${ShowMax(20, 15)}`);
+const add = (a,b) => {
+    return a+b;
+}
+console.log(add(1,2));
